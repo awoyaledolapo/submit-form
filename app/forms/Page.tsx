@@ -51,7 +51,7 @@ const ContactPage = () => {
       if (data.success) {
         setFormData({ name: '', email: '', subject: '', message: '' });
       }
-    } catch (err) {
+    } catch  {
       setResponseMsg('Something went wrong.');
     }
   };
